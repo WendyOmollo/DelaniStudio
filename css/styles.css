@@ -7,7 +7,9 @@
     background-position:center center;
     color:white;
     padding-top:20%;
-    margin-top:0px;
+    margin-top:-8px;
+    margin-left:0;
+    margin-right:0;
     
 }   
 #mouse{
@@ -38,4 +40,10 @@ h1{
 }
 p{
     padding:3px;
+}
+.brand{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    
 }
