@@ -21,5 +21,21 @@ h1{
 }
 #about{
     text-align:center;
-    padding:8px;
+    padding-top:25px;
+    padding-bottom:30px;
+
+}
+#services{
+    background-image:url("../img/s_image.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    max-width:100%;
+    text-align:center;
+    padding-top:6%;
+    padding-bottom:3%;
+    color:white;
+}
+p{
+    padding:3px;
 }
