@@ -1,6 +1,5 @@
 body{
     overflow-x:hidden;
-    
 }
 
 #landing{
@@ -52,5 +51,39 @@ p{
 }
 .contacts{
     background-image:url("../img/c_image.jpg");
-    padding-top:30px;
+    background-size:cover;
+    background-position:center;
+    padding-top:5%;
+}
+.form-control{
+    padding-top:5px;
+    margin-bottom:16px;
+    width:30%;
+    display:inline; 
+
+}
+.details{
+    display:inline; 
+    padding-left:25px;
+}
+input[type=text]{
+    background-color:transparent;
+
+}
+#output{
+    width:55%;
+    background-color:transparent;
+}
+#info{
+    width:100%;
+    padding-top:50px; 
+}
+#icons{
+    padding:30px;
+}
+.social{
+    padding-left:20px;
+}
+.form-control::placeholder{
+    color:white;
 }
