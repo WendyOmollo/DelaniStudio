@@ -22,3 +22,15 @@ $(document).ready(function(){
         $("#developer").show();
     });
 });
+$(document).ready(function(){
+    $("#producer").click(function(){
+        $("#producer").hide();
+        $("#production").show();
+    });
+});
+$(document).ready(function(){
+    $("#production").click(function(){
+        $("#production").hide();
+        $("#producer").show();
+    });
+});
