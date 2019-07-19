@@ -1,39 +1,31 @@
+// Toggling the 'What we Do' images
 $(document).ready(function(){
     $("#designer").click(function(){
         $("#designer").hide();
         $("#designing").fadeIn();
     });
-});
-$(document).ready(function(){
     $("#designing").click(function(){
         $("#designing").hide();
         $("#designer").fadeIn();
     });
-});
-$(document).ready(function(){
     $("#developer").click(function(){
         $("#developer").hide();
         $("#developing").fadeIn();
     });
-});
-$(document).ready(function(){
     $("#developing").click(function(){
         $("#developing").hide();
         $("#developer").fadeIn();
     });
-});
-$(document).ready(function(){
     $("#producer").click(function(){
         $("#producer").hide();
         $("#production").fadeIn();
     });
-});
-$(document).ready(function(){
     $("#production").click(function(){
         $("#production").hide();
         $("#producer").fadeIn();
     });
 });
+// Hovering over the porfolio images
 $(document).ready(function(){
     $("#onework").mouseenter(function(){
     $("#workone").show();
@@ -44,11 +36,36 @@ $(document).ready(function(){
     $("#worktwo").show();
     }).mouseleave(function(){
         $("#worktwo").hide();
-        });
+            });
     $("#threework").mouseenter(function(){
     $("#workthree").show();
     }).mouseleave(function(){
         $("#workthree").hide();
+            });
+    $("#fourwork").mouseenter(function(){
+    $("#workfour").show();
+    }).mouseleave(function(){
+        $("#workfour").hide();
+            });
+    $("#fivework").mouseenter(function(){
+    $("#workfive").show();
+    }).mouseleave(function(){
+        $("#workfive").hide();
+            });
+    $("#sixwork").mouseenter(function(){
+    $("#worksix").show();
+    }).mouseleave(function(){
+        $("#worksix").hide();
+            });
+    $("#sevenwork").mouseenter(function(){
+    $("#workseven").show();
+    }).mouseleave(function(){
+        $("#workseven").hide();
+            });
+    $("#eightwork").mouseenter(function(){
+    $("#workeight").show();
+    }).mouseleave(function(){
+        $("#workeight").hide();
             });
 
 
