@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $("#designer").click(function(){
+        $("#designer").hide();
+        $("#designing").show();
+    });
+});
+$(document).ready(function(){
+    $("#designing").click(function(){
+        $("#designing").hide();
+        $("#designer").show();
+    });
+});
+$(document).ready(function(){
+    $("#designer").click(function(){
+        $("#designer").hide();
+        $("#designing").show();
+    });
+});
+$(document).ready(function(){
+    $("#designer").click(function(){
+        $("#designer").hide();
+        $("#designing").show();
+    });
+});
