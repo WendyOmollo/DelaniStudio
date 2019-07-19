@@ -11,14 +11,14 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#designer").click(function(){
-        $("#designer").hide();
-        $("#designing").show();
+    $("#developer").click(function(){
+        $("#developer").hide();
+        $("#developing").show();
     });
 });
 $(document).ready(function(){
-    $("#designer").click(function(){
-        $("#designer").hide();
-        $("#designing").show();
+    $("#developing").click(function(){
+        $("#developing").hide();
+        $("#developer").show();
     });
 });
