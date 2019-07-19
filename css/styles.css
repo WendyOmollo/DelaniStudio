@@ -1,15 +1,18 @@
+body{
+    overflow-x:hidden;
+    
+}
+
 #landing{
     background-image:url("../img/h_img.jpg");
     background-size:cover;
-    background-repeat:no-repeat;
-    max-width:100%;
+    width:100vw;
     text-align: center;
-    background-position:center center;
+    background-position:center  ;
     color:white;
     padding-top:20%;
     margin-top:-8px;
-    margin-left:0;
-    margin-right:0;
+    
     
 }   
 #mouse{
@@ -41,9 +44,13 @@ h1{
 p{
     padding:3px;
 }
-.brand{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
-    
+#occupation{
+    padding-top:25px;
+}
+.container{
+    padding-top:25px;
+}
+.contacts{
+    background-image:url("../img/c_image.jpg");
+    padding-top:30px;
 }
