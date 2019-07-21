@@ -70,20 +70,35 @@ $(document).ready(function(){
 
 
  });
-// $(document).ready(function(){
-// $("form#entry").submit(function(event){
+$(document).ready(function(){
+$("form#entry").submit(function(event){
 
-//     var informations = ["name","email","output"];
-//     informations.forEach(function(information){
-//         var getInfo = $("input#" + information).val();
-//     }
-//         if(getInfo!==""){
-//         alert("Please enter your name");
-//     }
-//     else{
-//         alert("We have received your message.Thank you" + name + email );
+    var informations = ["name","email","output"];
+        var getInfo = $("input#" + informations).val();
+
+        alert("Thank you" + name + ".   We have received your message");
+            
+        event.preventDefault();
+        });
+    
+});
+
+        
+
+//$(document).ready(function () {
+//$("form#entry").submit(function(event){
+//         var userName = $("input#name").val();
+//         var userEmail = $("input#email").val();
+//         var message = $("input#output").val();
+
+//         $("#name").text(userName);
+//         $("#email").email(userEmail);
+//         $("#output").text(message);
+//         function (information) {
+//             if (userName && userEmail && message == $("input#")) {
+//                 alert("Please enter your name and email address.");
+//             }
 //         }
-
-//     event.preventDefault();
+//         event.preventDefault();
 //     });
 // });
