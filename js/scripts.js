@@ -70,26 +70,15 @@ $(document).ready(function(){
 
 
  });
-// $(document).ready(function(){
-// $("form#entry").submit(function(event){
-//     var userName = $("input#name").val();
-//     var userEmail = $("input#email").val();
-//     var message = $("input#output").val();
-//         alert("Thank you" +  + ".   We have received your message");
-            
-//         event.preventDefault();
-//         });
-    
-// });
 
-        
-
+//  Displaying a thank you message to the user after filling a form 
 $(document).ready(function () {
 $("form#entry").submit(function(event){
+    // Business logic
         var userName = $("input#name").val();
         var userEmail = $("input#email").val();
         var message = $("input#output").val();
-        
+    // User interface
        alert("Thank you " + userName +"  " + userEmail + " .We have received your message.");  
 
         event.preventDefault();
