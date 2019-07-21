@@ -89,8 +89,9 @@ $("form#entry").submit(function(event){
         var userName = $("input#name").val();
         var userEmail = $("input#email").val();
         var message = $("input#output").val();
+        
+       alert("Thank you " + userName +"  " + userEmail + " .We have received your message.");  
 
-       alert("Thank you" + userName + userEmail + ".We have received your message.");  
         event.preventDefault();
     });
 });

@@ -73,6 +73,19 @@ h2{
     font-weight:900;
     font-size:180%;
 }
+#overlay{
+    display:block;
+    height:207px;
+    width:255px;
+    background-color:rgb(13, 13, 41);
+    opacity:0.85;
+    z-index:1;
+    color:white;
+    position:absolute;
+    text-align:center;
+    top:0.9px;
+    padding-top:25%;
+}
 
 .container{
     padding-top:25px;

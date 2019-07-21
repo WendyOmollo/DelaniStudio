@@ -2,11 +2,11 @@
 ## Description
 This is a marketing website.It sells the idea of offering services to web developers.
 Services include the following:
-* Design
+*  **Design**
 + It focuses on brand strategy,interaction and visula design and user experience testing.
-* Development
+*  **Development**
 + They have a team that collaborates with the client and improve code using proven practices like pair programming.
-* Management
+*  **Management**
 + The products are always ready to be put out there since there is constant testing and coding.It makes the client responsive to change as the business is evolving.
 
 ## Setup
