@@ -20,6 +20,7 @@ body{
 h1{
     padding-top:18px;
     font-weight:500;
+    font-family: Handlee,cursive;
 }
 /* About Us segment */
 #about{
@@ -40,8 +41,11 @@ h1{
     padding-bottom:3%;
     color:white;
 }
-p{
+p{  font-family:'Merienda', cursive;
     padding:3px;
+}
+h2{
+    font-family: Handlee,cursive;
 }
 
 /* What we Do segment */
@@ -114,6 +118,7 @@ form{
 }
 .form-control::placeholder{
     color:white;
+    font-family:'Bad Script', cursive;
 }
 /* Social icons segment */
 #icons{
