@@ -1,18 +1,16 @@
 body{
     overflow-x:hidden;
 }
-
+/* Landing page */
 #landing{
     background-image:url("../img/h_img.jpg");
     background-size:cover;
     width:100vw;
-    text-align: center;
-    background-position:center  ;
+    text-align:center;
+    background-position:center;
     color:white;
     padding-top:20%;
     margin-top:-8px;
-    
-    
 }   
 #mouse{
     padding-top:17%;
@@ -23,12 +21,14 @@ h1{
     padding-top:18px;
     font-weight:500;
 }
+/* About Us segment */
 #about{
     text-align:center;
     padding-top:25px;
     padding-bottom:30px;
 
 }
+/* Services segment */
 #services{
     background-image:url("../img/s_image.jpg");
     background-repeat:no-repeat;
@@ -43,12 +43,35 @@ h1{
 p{
     padding:3px;
 }
+
+/* What we Do segment */
+#designing,#developing,#production{
+    display:none;
+}
 #occupation{
     padding-top:25px;
 }
+
+/* Portfolio segment */
+#workone,#worktwo,#workthree,#workfour,#workfive,#worksix,#workseven,#workeight{
+    display:none;
+    height:207px;
+    width:255px;
+    background-color:rgb(13, 13, 41);
+    opacity:0.85;
+    z-index:1;
+    color:white;
+    position:absolute;
+    text-align:center;
+    top:0.9px;
+    padding-top:25%;
+    font-family:'Merienda', cursive;
+}
+
 .container{
     padding-top:25px;
 }
+/* Contacts segment */
 .contacts{
     background-image:url("../img/c_image.jpg");
     background-size:cover;
@@ -59,7 +82,8 @@ p{
     padding-top:5px;
     margin-bottom:16px;
     width:30%;
-    display:inline; 
+    display:inline;
+    color:white 
 
 }
 .details{
@@ -68,22 +92,34 @@ p{
 }
 input[type=text]{
     background-color:transparent;
-
+    color:white;
+}
+[type=submit]{
+    background-color:black;
+    border-radius:15%;
+    color:lavenderblush;
+    padding:10px;
 }
 #output{
     width:55%;
     background-color:transparent;
+    color:white;
 }
 #info{
     width:100%;
     padding-top:50px; 
 }
+form{
+    padding-bottom:15px;
+}
+.form-control::placeholder{
+    color:white;
+}
+/* Social icons segment */
 #icons{
     padding:30px;
 }
 .social{
     padding-left:20px;
 }
-.form-control::placeholder{
-    color:white;
-}
+
