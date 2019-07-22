@@ -1,6 +1,6 @@
 #  DELANI STUDIO
 ## Screenshot
-<img src="Screenshot.png">
+<img src="../img/Screenshot.png">
 
 ## Description
 This is a marketing website.It sells the idea of offering services to web developers.
