@@ -1,4 +1,6 @@
 #  DELANI STUDIO
+## Authors
+* [Wendy Omollo]("https://github.com/WendyOmollo")
 ## Description
 This is a marketing website.It sells the idea of offering services to web developers.
 Services include the following:
